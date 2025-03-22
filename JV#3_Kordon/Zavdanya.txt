@@ -1,0 +1,12 @@
+const createNamePrinter = (surname, name) => {
+    return () => {
+        const fullName = `${surname} ${name}`;
+        for (const char of fullName) {
+            console.log(char);
+        }
+    };
+};
+
+const printMyName = createNamePrinter("Кордон", "Артур");
+
+printMyName();
