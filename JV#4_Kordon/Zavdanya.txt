@@ -1,0 +1,6 @@
+const surname = "Кордон";
+const name = "Артур";
+
+const fullName = surname.toUpperCase() + " " + name.toLowerCase();
+
+console.log(fullName);
