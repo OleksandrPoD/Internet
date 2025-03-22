@@ -1,0 +1,5 @@
+ const prizvimya = "КОРДОН АРТУР";   
+for(ch of prizvimya){  
+
+     console.log(ch);   
+}  
