@@ -1,0 +1,11 @@
+const printFullName = (lastName, firstName) => {
+  const formattedLastName = lastName.toUpperCase(); 
+  const formattedFirstName = firstName.toLowerCase(); 
+  
+  console.log(formattedLastName + ' ' + formattedFirstName); 
+};
+
+const lastName = "Подусовський";
+const firstName = "Олександр";
+
+printFullName(lastName, firstName);
