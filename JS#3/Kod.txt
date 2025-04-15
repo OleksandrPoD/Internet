@@ -1,0 +1,12 @@
+const printNameVertical = (name) => {
+  return () => {
+    for (let char of name) {
+      console.log(char);
+    }
+  }
+};
+
+const myName = "Подусовський Олександр";
+const printMyName = printNameVertical(myName);
+
+printMyName();
